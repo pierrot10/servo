@@ -100,7 +100,7 @@ void setup() {
   
 }
 
-void servo(float angle){
+void fservo(float angle){
   digitalWrite(SX,HIGH);
   delay(angle);
   digitalWrite(SX,LOW);
