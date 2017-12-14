@@ -1,3 +1,7 @@
+/*
+* This is a simple code to test the product https://www.adafruit.com/product/169
+*/
+
 /*#if defined(__AVR__) || defined(ARDUINO_SAMD_ZERO)
   #include <avr/pgmspace.h>
   #include <Arduino.h>
@@ -32,14 +36,18 @@ void setup() {
   //pinMode(SY, OUTPUT);
   digitalWrite(SX,LOW);
     
-  servo_x.attach(SX,1000,2000);
+  /*
+  * Position "0" (1.5ms pulse) is middle, "90" (~2ms pulse) is all the way to the right, "-90" (~1ms pulse) is all the way to the left.
+  */
+  servo_x.attach(SX,1000,2000); // Pin, min value (0°) and max value (180°) of the micro servo (Param 2 and 3 in microsecond
   // servo.attach(SY);
 
   int pos=0;
 
 
  /*
-  * Solution 1
+  * Test 1
+  * Use of digitalWrite() // Walue in ms
   */
   Serial.println("Test servo X");
   Serial.println(millis());
