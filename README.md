@@ -20,4 +20,4 @@ Your servo may behave erratically, and you may find that this only happens when 
 Read more: https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/if-the-servo-misbehaves 
 
 # Improvement
-Feel you free to share your suggestion to improve it
+Feel you free to share your suggestions to improve it
