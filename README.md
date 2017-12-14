@@ -2,10 +2,10 @@
 This is a small draft exemple to test the micro servo https://www.adafruit.com/product/169 on different pin of the Adafruit Trinket Pro https://www.adafruit.com/product/2010
 
 ## Connection
-Micro servo => Trinket
-Red wires -> 3V pin
-Brown wires -> G pin (GND)
-Orange wires -> pin 9 (x) and 10 (y)
+Micro servo => Trinket:
+Red wires -> 3V pin,
+Brown wires -> G pin (GND),
+Yellow wires -> pin 9 (x) and 10 (y)
 
 I used a FTDI cable from my laptop to the Trinket Pro board: https://www.adafruit.com/product/70
 
