@@ -18,3 +18,6 @@ Read more : https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/s
 ### If the Servo Misbehaves
 Your servo may behave erratically, and you may find that this only happens when the Arduino is plugged into certain USB ports
 Read more: https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/if-the-servo-misbehaves 
+
+# Improvement
+Feel you free to share your suggestion to improve it
