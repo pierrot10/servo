@@ -3,13 +3,13 @@ This is a small exemple to test the Min Pan Tilt robot https://www.adafruit.com/
 
 Library : Arduino Servo library https://www.arduino.cc/en/Reference/Servo
 
-Note that the servo has never been working on 3V of all the menrtionned board. I also bring you attention of the frequence of the boards which has an influence of the rotatio of the Mini Pan Tilt.
+Note that the servo has never been working on 3V pin of all the menrtionned board. I had to connect the red wire to the USB pin of the board. I also bring you attention of the frequence of the boards which has an influence of the rotatio (pulse lengh) of the Mini Pan Tilt.
 
 ## Connection
 Micro servo => Trinket:
 Red wires -> USB,
 Brown wires -> G pin (GND),
-Yellow wires -> pin 9 (x) and 10 (y)
+Yellow wires -> A1 (x) and A2 (y)
 
 I used a FTDI cable from my laptop to the Trinket Pro board: https://www.adafruit.com/product/70
 For the Feather MO board, I used a micro USB cable.
