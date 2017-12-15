@@ -1,5 +1,5 @@
 # servo
-This is a small draft exemple to test the micro servo https://www.adafruit.com/product/169 on different pin of the Adafruit Trinket Pro https://www.adafruit.com/product/2010
+This is a small draft exemple to test the micro servo https://www.adafruit.com/product/169 on different pin of the Adafruit Trinket Pro 3V/12Mhz https://www.adafruit.com/product/2010.
 
 ## Connection
 Micro servo => Trinket:
