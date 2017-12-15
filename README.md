@@ -3,7 +3,7 @@ This is a small exemple to test the Min Pan Tilt robot https://www.adafruit.com/
 
 Library : Arduino Servo library https://www.arduino.cc/en/Reference/Servo
 
-Note that the servo has never been working on 3V pin of all the menrtionned board. I had to connect the red wire to the USB pin of the board. I also bring you attention of the frequence of the boards which has an influence of the rotatio (pulse lengh) of the Mini Pan Tilt.
+Note that the servo has never been working on 3V pin of all the menrtionned board. The 3v pin cannot supply sufficient current to run a servo. I had to connect the red wire to the USB pin of the board. I also bring you attention of the frequence of the boards which has an influence of the rotatio (pulse lengh) of the Mini Pan Tilt.
 
 ## Connection
 Micro servo => Trinket:
